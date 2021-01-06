@@ -1,0 +1,19 @@
+{
+  "name": "htdocs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack-cli": "^4.2.0",
+    "webpack": "^5.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
