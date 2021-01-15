@@ -20,6 +20,7 @@
     <div class="feed">
         <div class="publication">
             <img src="<?= $_SESSION['user']['avatar'] ?>" class="avatar" alt="avatar do usuário" onerror="this.src='./img/avatar_default.png'" />
+            <input type="file" name="avatar" hidden>
             <div class="share">
                 <form action="/publications?api">
                     <textarea name="publish_desc" id="publish_desc" placeholder="Publique algo"></textarea>

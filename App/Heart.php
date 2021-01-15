@@ -10,9 +10,10 @@ class Heart
 
     public function __construct()
     {
-        $this->id = addslashes($_GET['id']);
+        $this->id = isset($_GET['id']) ? addslashes($_GET['id']) : null;
+        $this->not = isset($_GET['not']) ? true : null;
 
-        if ($this->id)
+        if (!$this->id)
             throw new Exception('Ocorreu um erro. Tente novamente mais tarde!');
 
         $this->heart();
@@ -26,51 +27,44 @@ class Heart
     {
         $database = new Database;
 
-        $amount = $database->select(['amount_hearts'])->setTable('publications')->where([['id' => $this->id]])->exec();
-        $database->update(['amount_hearts'], [$amount + 1]);
+        $operator = $this->not ? -1 : 1;
+        $amount = $database->custom('SELECT COUNT(*) as amount_hearts FROM hearts as h WHERE id_publication = ' . $this->id)->fetch()['amount_hearts'] + $operator;
 
-        // registra o seguidor
-        $follow = $database
-            ->setTable('followers')
-            ->create(
-                ['id_follower', 'id_followed', 'signature'],
-                [$this->id_follower, $this->id_followed, $this->signature]
-            );
 
-        // recupera número de seguidores
-        $amount_followers = $database
-            ->setTable('users')
-            ->select(['amount_followers'])
-            ->where([['id', '=', $this->id_followed]])
-            ->first() ?? 0;
-        $amount_followers = array_shift($amount_followers);
+        if ($operator == 1) {
+            $hearts = $database
+                ->setTable('hearts')
+                ->create(
+                    ['id_user', 'id_publication', 'signature'],
+                    [$_SESSION['user']['id'], $this->id, md5($_SESSION['user']['id'] . 'ShArEgIfS' . $this->id)]
+                );
+        } else if ($operator == -1) {
+            $hearts = $database
+                ->setTable('hearts')
+                ->delete()
+                ->where([
+                    ['id_user', '=', $_SESSION['user']['id']],
+                    ['id_publication', '=', $this->id]
+                ])
+                ->exec();
+        }
 
-        //atualiza número de seguidores
-        $database
-            ->update(['amount_followers'], [++$amount_followers])
-            ->where([['id', '=', $this->id_followed]])
+
+        if (!$hearts) {
+            echo json_encode(['message' => 'Ocorreu um erro. Tente novamente mais tarde!', 'status' => 401]);
+            return false;
+        }
+
+        $updated = $database
+            ->setTable('publications')
+            ->update(['amount_hearts'], [$amount])
+            ->where([['id', '=', $this->id]])
             ->exec();
 
-        if ($follow)
-            echo json_encode([
-                'message' => 'Você agora está seguindo.',
-                'status' => 201
-            ]);
-        else
-            echo json_encode([
-                'message' => 'Ocorreu um erro. Tente novamente mais tarde!',
-                'status' => 401
-            ]);
+        echo $updated
+            ? json_encode(['message' => 'Tudo certo!', 'status' => 200, 'amount_hearts' => $amount])
+            : json_encode(['message' => 'Ocorreu um erro. Tente novamente mais tarde!', 'status' => 400, 'heart' => false]);
 
         return $this;
-    }
-
-
-
-
-
-    public function checkIfFieldsEmpty()
-    {
-        return ((!isset($this->id_followed) || $this->id_followed == '') or (!isset($this->id_follower) || $this->id_follower == ''));
     }
 }

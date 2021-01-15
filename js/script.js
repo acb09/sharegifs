@@ -10,11 +10,9 @@ function scrollPage(e) {
 
 
 
-
-function addPublication(publish) {
-
+function createPublicationHtml(publish) {
     // const comments = document.createElement('div');
-    // comments.classList.add('');
+    // comments.classList.add(''); 
 
     const iShare = document.createElement('i');
     iShare.style.marginRight = '5px';
@@ -27,11 +25,12 @@ function addPublication(publish) {
     iComment.classList.add('fa-comment');
 
     const iHeart = document.createElement('i');
-    iHeart.style.marginRight = '5px';
-    iHeart.classList.add('far');
-    iHeart.classList.add('fa-heart');
-    iHeart.addEventListener('click', heart);
     iHeart.dataset.isHeart = publish.hearts.isHeart;
+    iHeart.style.marginRight = '5px';
+    iHeart.classList.add(publish.hearts.isHeart == 'true' ? 'fas' : 'far');
+    iHeart.classList.add('fa-heart');
+    iHeart.style.color = publish.hearts.isHeart == 'true' ? 'red' : '';
+    iHeart.addEventListener('click', heart);
 
     const spanAmountComments = document.createElement('span');
     spanAmountComments.textContent = formatNumber(publish.comments.amount);
@@ -53,6 +52,7 @@ function addPublication(publish) {
     const actionsItemShares = document.createElement('button');
     actionsItemShares.appendChild(iShare);
     actionsItemShares.appendChild(spanAmountShares);
+    actionsItemShares.addEventListener('click', share);
 
     const actions = document.createElement('div');
     actions.classList.add('actions');
@@ -78,22 +78,40 @@ function addPublication(publish) {
     legend.appendChild(pLink);
 
     const image = document.createElement('img');
-    image.src = publish.image;
-    image.width = 600;
-    image.onerror = function () {
-        this.parentElement.parentElement.querySelector('.image').innerHTML = '';
+    const divCard = document.createElement('div');
+
+    if (publish.id_original) {
+
+        fetch('/publications?api&id=' + publish.id_original)
+            .then(request => request.json())
+            .then(response => {
+
+                if (response.status != 404)
+                    divCard.appendChild(createPublicationHtml(response));
+
+            });
+
+    } else {
+
+        image.src = publish.image;
+        image.width = 600;
+        image.onerror = function () {
+            this.parentElement.parentElement.querySelector('.image').innerHTML = '';
+        }
+
+        divCard.classList.add('image');
+        divCard.appendChild(image);
+
+        (publish.link) ? divCard.appendChild(legend) : '';
+
     }
 
-    const divImage = document.createElement('div');
-    divImage.classList.add('image');
-    divImage.appendChild(image);
-    (publish.link) ? divImage.appendChild(legend) : '';
 
     const description = document.createElement('div');
     description.classList.add('description');
+
     if (publish.description)
-        description.innerHTML = publish.description.replace(/(http.?:\/\/.[^\s]*)/g, '');
-    // description.innerHTML = publish.description.replace(/(http.?:\/\/.[^\s]*)/g, '<a target="_blank" href="$1">$1</a>');
+        description.innerHTML = publish.description.trim().replace(/(http.?:\/\/.[^\s]*)/g, '<a target="_blank" href="$1">$1</a>');
 
     const avatar = document.createElement('img');
     avatar.src = publish.profile.avatar;
@@ -110,6 +128,7 @@ function addPublication(publish) {
 
     const profile = document.createElement('div');
     profile.classList.add('profile');
+    profile.dataset.id = publish.profile.id;
     profile.appendChild(profileName);
     profile.appendChild(btnProfileFollow);
 
@@ -117,7 +136,7 @@ function addPublication(publish) {
     content.classList.add('content');
     content.appendChild(profile);
     content.appendChild(description);
-    content.appendChild(divImage);
+    content.appendChild(divCard);
     content.appendChild(actions);
     // content.appendChild(comments);
 
@@ -127,13 +146,16 @@ function addPublication(publish) {
     card.appendChild(avatar);
     card.appendChild(content);
 
-    const cards = document.querySelector('.cards');
-
-    if (cards)
-        cards.prepend(card);
-
+    return card;
 }
 
+
+
+
+
+function addPublication(publish) {
+    return document.querySelector('.cards').prepend(createPublicationHtml(publish)) ?? false;
+}
 
 
 
@@ -298,28 +320,95 @@ async function followUnfollow({ target }) {
 
 
 
+async function share({ target }) {
+
+    const divCard = target.parentElement.parentElement.parentElement.parentElement.querySelector('.card') ?? target.parentElement.parentElement.parentElement.parentElement;
+    const divProfile = divCard.querySelector('.profile[data-id]');
+    // const divDescription = divCard.querySelector('.description');
+    // const divImage = divCard.querySelector('.image img');
+
+    const id_owned = divProfile.dataset.id;
+    const id_original = divCard.dataset.id;
+    // const description = divDescription.textContent;
+    // const image = divImage.src;
+
+    const publish = {};
+    publish.id_owned = id_owned;
+    publish.id_original = id_original;
+    // publish.description = '';
+    // publish.image = image;
+
+    const data = new FormData();
+
+    // data.append('description', description);
+    data.append('id_original', id_original);
+    data.append('id_owned', id_owned);
+    // data.append('images[]', image);
+
+    const metaData = {};
+    metaData.method = 'POST';
+    metaData.body = data;
+
+    const request = await fetch('/publications?api&shares', metaData);
+    const response = await request.json();
+
+    const requestShare = await fetch(`/publications?api&id=${response.publish.id_original}`);
+    const responseShare = await requestShare.json();
+
+    response.publish.card = responseShare;
+
+    addPublication(response.publish);
+}
+
+
+
+
 
 async function heart({ target }) {
+
     const isHeart = target.dataset.isHeart == "true";
-    const id = target.parentElement.parentElement.dataset.id;
+    const id = target.parentElement.parentElement.parentElement.parentElement.dataset.id;
     const spanAmount = target.parentElement.querySelector('span');
-    const amount = Number(spanAmount.textContent);
 
-    // await fetch(`/heart?api&id=${id}`);
+    const url = isHeart === false ? `/heart?api&id=${id}` : `/heart?api&id=${id}&not`;
+    const request = await fetch(url);
+    const { status, amount_hearts } = await request.json();
 
-    if (!isHeart) {
-        target.style.color = 'red';
-        target.classList.replace('far', 'fas')
+    if (status >= 200 & status <= 299) {
+        if (!isHeart) {
+            target.style.color = 'red';
+            target.classList.replace('far', 'fas')
+        } else {
+            target.style.color = '#222';
+            target.classList.replace('fas', 'far');
+        }
         target.dataset.isHeart = !isHeart;
-        spanAmount.textContent = amount + 1;
-    } else {
-        target.style.color = '#222';
-        target.classList.replace('fas', 'far');
-        target.dataset.isHeart = !isHeart;
-        spanAmount.textContent = amount - 1;
+        spanAmount.textContent = amount_hearts;
     }
 }
 
+
+
+
+
+async function uploadAvatar() {
+    const file = document.querySelector('input[type=file][name=avatar]').files[0];
+    if (!file)
+        throw new exception("Imagem não carregada!");
+
+    const data = new FormData();
+    data.append('avatar', file);
+
+    const fetchRequest = {};
+    fetchRequest.method = "POST";
+    fetchRequest.body = data;
+
+    const request = await fetch('/avatar?api', fetchRequest);
+    const { status, avatar } = await request.json();
+
+    if (status >= 200 && status < 290)
+        document.querySelector('img.avatar').src = avatar;
+}
 
 
 
@@ -437,6 +526,8 @@ async function publish() {
 
     addPublication(JSON.parse(response.publish));
     publish_desc.value = '';
+
+    document.querySelector('.preview').innerHTML = '';
 }
 
 
@@ -455,9 +546,17 @@ window.onload = function () {
     const followersTimes = document.querySelector('.followers > i.fa-times');
     const navBtnFollowers = document.querySelector('a[data-item-menu=followers]');
     const btnPublish = document.querySelector('.btn-publish');
+    const imgAvatar = document.querySelector('.avatar');
+    const inputAvatar = document.querySelector('input[name=avatar]');
     var sugestion = [];
     var followers = [];
     var feeds = [];
+
+    if (imgAvatar && inputAvatar) {
+        imgAvatar.addEventListener('click', () => inputAvatar.click());
+        inputAvatar.addEventListener('change', uploadAvatar);
+    }
+
 
     if (btnPublish)
         btnPublish.addEventListener('click', publish);
@@ -498,6 +597,8 @@ window.onload = function () {
             Array.from(this.files).forEach(file => {
                 const img = document.createElement('img');
                 img.src = URL.createObjectURL(file);
+
+                URL.revokeObjectURL(img.src);
 
                 const divPreview = document.querySelector('.preview');
                 divPreview.innerHTML = ''; // Remover para múltiplos arquivos

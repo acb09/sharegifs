@@ -285,7 +285,7 @@ class Database
         $this->query .= ")";
 
         $this->connect();
-        $created = self::$instance->query($this->toSql());
+        $created = self::$instance->query($this->toSql())->rowCount();
         $this->lastInsertId = self::$instance->lastInsertId();
         $this->close();
 
@@ -301,7 +301,7 @@ class Database
     public function exec()
     {
         $this->connect();
-        $exec = self::$instance->query($this->toSql())->rowCount();
+        $exec = self::$instance->query($this->toSql());
         $this->close();
 
         $this->query = '';

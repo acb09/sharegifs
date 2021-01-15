@@ -166,7 +166,6 @@ img {
 .btn-submit:hover {
     color: var(--bg-tertiary);
     background-color: var(--bg-tertiary-color);
-    border: 3px solid
 }
 
 .input-group>.btn-submit.success {
@@ -207,7 +206,6 @@ img {
     justify-content: center;
     align-items: flex-start;
     width: 100%;
-    border: 1px solid #eee;
 }
 
 .feed>.publication .avatar {
@@ -273,19 +271,13 @@ img {
 }
 
 .avatar {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     margin-right: 20px;
-    border: 1px solid #222;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-}
-
-.avatar img {
-    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
 }
 
 .btn-publish {
@@ -319,11 +311,10 @@ img {
     margin-top: 50px;
 }
 
-.cards .card>img {
+.card > img {
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    border: 1px solid #333;
+    border-radius: 50% !important;
     margin-right: 15px;
 }
 
@@ -366,7 +357,6 @@ img {
 }
 
 .cards .card>.content .image {
-    border: 1px solid #eee;
     border-radius: 20px;
     margin-top: 10px;
 }
@@ -400,7 +390,6 @@ img {
 .cards .card>.content .comments {
     display: none;
     flex-direction: column;
-    border: 1px solid #eee;
     border-radius: 10px;
     padding: 10px;
     margin-top: 10px;
@@ -429,6 +418,8 @@ img {
 
 .cards .card>.content>.comments>.comment .avatar img {
     border-radius: 50%;
+    width: 100%;
+    height: 100%;
 }
 
 .cards .card>.content>.comments>.comment .info {
@@ -602,7 +593,6 @@ img {
 .followers .box header nav .link {
     margin-right: 10px;
     padding: 15px;
-    border: 1px solid #44a5ff;
     border-radius: 10px;
     font-size: 1.3rem;
     font-weight: bold;
@@ -627,7 +617,6 @@ img {
     align-content: center;
     width: 100%;
     max-width: 300px;
-    border: 1px solid #44a5ff;
     border-radius: 20px;
     transition: all 1s;
 }

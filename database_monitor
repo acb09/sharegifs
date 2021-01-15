@@ -1,1592 +1,684 @@
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '22',  '18',  '0fbd96717d4743cb956d0ea33cdb6ccf')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users   WHERE id  '' 
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM    INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '22',  '18',  '0fbd96717d4743cb956d0ea33cdb6ccf')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users   WHERE id  '' 
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM    INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM    INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM    INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '22',  '20',  '7a40238fec21abcd2475f96e4a9112e5')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users   WHERE id  '' 
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-DELETE FROM followers WHERE id_follower = '22' and id_followed = '18' and signature = '0fbd96717d4743cb956d0ea33cdb6ccf' 
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-DELETE FROM followers WHERE id_follower = '22' and id_followed = '20' and signature = '7a40238fec21abcd2475f96e4a9112e5' 
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '22',  '17',  'd575292199d6390a6e45578da8523c78')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users   WHERE id  '' 
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '22',  '18',  '0fbd96717d4743cb956d0ea33cdb6ccf')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users   WHERE id  '' 
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '22',  '19',  '2067bbdbf682a35f3e455549c9d39e17')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users   WHERE id  '' 
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-DELETE FROM followers WHERE id_follower = '22' and id_followed = '18' and signature = '0fbd96717d4743cb956d0ea33cdb6ccf' 
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '22',  '20',  '7a40238fec21abcd2475f96e4a9112e5')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users   WHERE id  '' 
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '22',  '20',  '7a40238fec21abcd2475f96e4a9112e5')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '22',  '21',  'c773a2d6345e83db57506e0db77c252c')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users   WHERE id  '' 
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '22',  '23',  '1c0a3574661663da24b5cc00e129d6fc')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users  WHERE id = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-UPDATE  users SET amount_followers='Array' WHERE id = '23' WHERE id = '23'
+INSERT INTO  publications (id_user, id_owned, id_original) VALUES( '29',  '28',  '28')
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '22',  '18',  '0fbd96717d4743cb956d0ea33cdb6ccf')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users  WHERE id = '18'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-UPDATE  users SET amount_followers='Array' WHERE id = '18' WHERE id = '18'
+INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '29',  'https://media.giphy.com/media/uQ2ciw3tRBgek/giphy.gif',  'https://media.giphy.com/media/uQ2ciw3tRBgek/giphy.gif',  'https://media.giphy.com/media/uQ2ciw3tRBgek/giphy.gif',  '29')
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '29',  'https://media.giphy.com/media/uQ2ciw3tRBgek/giphy.gif',  'https://media.giphy.com/media/uQ2ciw3tRBgek/giphy.gif',  'https://media.giphy.com/media/uQ2ciw3tRBgek/giphy.gif',  '29')
 
-DELETE FROM followers WHERE id_follower = '22' and id_followed = '17' and signature = 'd575292199d6390a6e45578da8523c78' 
+INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '29',  'https://media.giphy.com/media/uQ2ciw3tRBgek/giphy.gif',  'https://media.giphy.com/media/uQ2ciw3tRBgek/giphy.gif',  'https://media.giphy.com/media/uQ2ciw3tRBgek/giphy.gif',  '29')
 
-DELETE FROM followers WHERE id_follower = '22' and id_followed = '19' and signature = '2067bbdbf682a35f3e455549c9d39e17' 
+INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '29',  'https://media.giphy.com/media/uQ2ciw3tRBgek/giphy.gif',  'https://media.giphy.com/media/uQ2ciw3tRBgek/giphy.gif',  'https://media.giphy.com/media/uQ2ciw3tRBgek/giphy.gif',  '29')
 
-DELETE FROM followers WHERE id_follower = '22' and id_followed = '20' and signature = '7a40238fec21abcd2475f96e4a9112e5' 
+INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '29',  'https://media.giphy.com/media/uQ2ciw3tRBgek/giphy.gif',  'https://media.giphy.com/media/uQ2ciw3tRBgek/giphy.gif',  'https://media.giphy.com/media/uQ2ciw3tRBgek/giphy.gif',  '29')
 
-DELETE FROM followers WHERE id_follower = '22' and id_followed = '21' and signature = 'c773a2d6345e83db57506e0db77c252c' 
+INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '29',  'https://media.giphy.com/media/uQ2ciw3tRBgek/giphy.gif',  'https://media.giphy.com/media/uQ2ciw3tRBgek/giphy.gif',  'https://media.giphy.com/media/uQ2ciw3tRBgek/giphy.gif',  '29')
 
-DELETE FROM followers WHERE id_follower = '22' and id_followed = '23' and signature = '1c0a3574661663da24b5cc00e129d6fc' 
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-DELETE FROM followers WHERE id_follower = '22' and id_followed = '18' and signature = '0fbd96717d4743cb956d0ea33cdb6ccf' 
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '22',  '18',  '0fbd96717d4743cb956d0ea33cdb6ccf')
+INSERT INTO  publications (id_user, id_owned, id_original) VALUES( '29',  '29',  '29')
 
-SELECT amount_followers FROM users  WHERE id = '18'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-UPDATE  users SET amount_followers='Array' WHERE id = '18' WHERE id = '18'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '29',  'vamos testar',  '',  '',  '29')
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '22',  '20',  '7a40238fec21abcd2475f96e4a9112e5')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users  WHERE id = '20'
+INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '29',  'Agora vai?!',  '',  '',  '29')
 
-UPDATE  users SET amount_followers='Array' WHERE id = '20' WHERE id = '20'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '22',  '19',  '2067bbdbf682a35f3e455549c9d39e17')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users  WHERE id = '19'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-UPDATE  users SET amount_followers='1' WHERE id = '19' WHERE id = '19'
+INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '29',  'teste',  '',  '',  '29')
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+INSERT INTO  publications (id_user, id_owned, id_original) VALUES( '29',  '29',  '29')
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '22',  '21',  'c773a2d6345e83db57506e0db77c252c')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users  WHERE id = '21'
+INSERT INTO  publications (id_user, id_owned, id_original) VALUES( '29',  '29',  '121')
 
-UPDATE  users SET amount_followers='1' WHERE id = '21' WHERE id = '21'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '22',  '23',  '1c0a3574661663da24b5cc00e129d6fc')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users  WHERE id = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-UPDATE  users SET amount_followers='1' WHERE id = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT id, name, email, avatar, password FROM   WHERE email = 'roberto.atacadao@gmail.com'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT id, name, email, avatar, password FROM   WHERE email = 'roberto.atacadao@gmail.com'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT id, name, email, avatar, password FROM   WHERE email = 'roberto.atacadao@gmail.com'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT id, name, email, avatar, password FROM   WHERE email = 'roberto.atacadao@gmail.com'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT id, name, email, avatar, password FROM users  WHERE email = 'roberto.atacadao@gmail.com'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '18',  'a2807164b5d6b46cc78807611a0c0a34')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users  WHERE id = '18'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-UPDATE  users SET amount_followers='1' WHERE id = '18'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '19',  '71e8d13ef60d031b299eb6e625a73aa5')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users  WHERE id = '19'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-UPDATE  users SET amount_followers='1' WHERE id = '19'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '20',  'e25ce386a12398646dcd11ba645bdd8f')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users  WHERE id = '20'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-UPDATE  users SET amount_followers='1' WHERE id = '20'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '21',  '9f05f1dcd20f7bb04465773e4f517f8a')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users  WHERE id = '21'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-UPDATE  users SET amount_followers='1' WHERE id = '21'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT id, name, email, avatar, password FROM users  WHERE email = 'douglas_cezar@gmail.com'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '22',  '17',  'd575292199d6390a6e45578da8523c78')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users  WHERE id = '17'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-UPDATE  users SET amount_followers='1' WHERE id = '17'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, ( SELECT COUNT(f.id_followed) FROM followers as f WHERE f.id_follower = u.id ) as amount_followers  FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '22',  '18',  '0fbd96717d4743cb956d0ea33cdb6ccf')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users  WHERE id = '18'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-UPDATE  users SET amount_followers='1' WHERE id = '18'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '22',  '20',  '7a40238fec21abcd2475f96e4a9112e5')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users  WHERE id = '20'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-UPDATE  users SET amount_followers='1' WHERE id = '20'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT id, name, email, avatar, password FROM users  WHERE email = 'roberto.atacadao@gmail.com'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '17',  'ec429162d954799d045ac7a9a141b038')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users  WHERE id = '17'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-UPDATE  users SET amount_followers='2' WHERE id = '17'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '20',  'e25ce386a12398646dcd11ba645bdd8f')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users  WHERE id = '20'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-UPDATE  users SET amount_followers='2' WHERE id = '20'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '19',  '71e8d13ef60d031b299eb6e625a73aa5')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users  WHERE id = '19'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-UPDATE  users SET amount_followers='1' WHERE id = '19'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  users (name, email, password) VALUES( 'Netflix Brasil',  'netflix@brasil.com',  '$2y$10$GDEXX60j26LrNUj/HsxHMeaMGd8fChnpru/PhBHyFEo02L1AoVvpG')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '24',  '17',  '11c5404ef39bad80b0c4bdef2480a716')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users  WHERE id = '17'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-UPDATE  users SET amount_followers='3' WHERE id = '17'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '24',  '20',  'fd0c0ece2f30bf2afa6f818d843596ab')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users  WHERE id = '20'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-UPDATE  users SET amount_followers='3' WHERE id = '20'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '24',  '23',  '2b275e4737b9e274bd9855e7a3e0f71c')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users  WHERE id = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-UPDATE  users SET amount_followers='1' WHERE id = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '24',  '21',  'f4f867113fb34ff8c2147e8fea6d20e2')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT amount_followers FROM users  WHERE id = '21'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-UPDATE  users SET amount_followers='1' WHERE id = '21'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u INNER JOIN followers as f ON u.id = f.id_followed WHERE f.id_follower = '24'
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '24'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
 SELECT id, name, email, avatar, password FROM users  WHERE email = 'alanbelisariopay@gmail.com'
 
-SELECT id, name, email, avatar, password FROM users  WHERE email = 'alanbelisariopay@gmail.com'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '27'
 
-SELECT id, name, email, avatar, password FROM users  WHERE email = 'alanbelisariopay@gmail.com'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '27'
 
-SELECT id, name, email, avatar, password FROM users  WHERE email = 'alanbelisariopay@gmail.com'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '27'
 
-SELECT id, name, email, avatar, password FROM users  WHERE email = 'douglas_cezar@gmail.com'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '27'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '27'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '27'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '27'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '27'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '27'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '27'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '27'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '27'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '27',  'https://media.giphy.com/media/8nmvR3jAxnl2o/giphy.gif',  'https://media.giphy.com/media/8nmvR3jAxnl2o/giphy.gif',  'https://media.giphy.com/media/8nmvR3jAxnl2o/giphy.gif',  '27')
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '27',  '28',  '471c4a983364c40487f1537f2193b649')
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT amount_followers FROM users  WHERE id = '28'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+UPDATE  users SET amount_followers='1' WHERE id = '28'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '27',  '29',  '8de68115449a41f7c49eab8596d59dc9')
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT amount_followers FROM users  WHERE id = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+UPDATE  users SET amount_followers='1' WHERE id = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '27',  'https://media.giphy.com/media/oF5oUYTOhvFnO/giphy.gif',  'https://media.giphy.com/media/oF5oUYTOhvFnO/giphy.gif',  'https://media.giphy.com/media/oF5oUYTOhvFnO/giphy.gif',  '27')
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '27',  'O que dizer deste time?
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+https://media.giphy.com/media/26FL4BhNXmo8PNLYk/giphy.gif',  'https://media.giphy.com/media/26FL4BhNXmo8PNLYk/giphy.gif',  'https://media.giphy.com/media/26FL4BhNXmo8PNLYk/giphy.gif',  '27')
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '29',  '27',  '64fdb79c1ebdc76cf568d65c32d5b39d')
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT amount_followers FROM users  WHERE id = '27'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+UPDATE  users SET amount_followers='1' WHERE id = '27'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '22',  'apfdhas shttps://www.google.com/google.jpg asfdaa',  '',  '',  '22')
+INSERT INTO  hearts (id_user, id_publication, signature) VALUES( '29',  '130',  '8be6c82d52cf147b3e8d5d387f839aa0')
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '22',  'apfdhas shttps://www.google.com/google.jpg asfdaa',  '',  '',  '22')
+UPDATE  publications SET amount_hearts='1' WHERE id = '130'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '22',  'apfdhas shttps://www.google.com/google.jpg asfdaa',  '',  '',  '22')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '22',  'apfdhas shttps://www.google.com/google.jpg asfdaa',  '',  '',  '22')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '27'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '22',  'apfdhas shttps://www.google.com/google.jpg asfdaa',  '',  '',  '22')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '27'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '22',  'apfdhas shttps://www.google.com/google.jpg asfdaa',  'https://www.google.com/google.jpg',  '',  '22')
+INSERT INTO  hearts (id_user, id_publication, signature) VALUES( '27',  '130',  '0da81c2cec715e0ccd6d1f535e598ffc')
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '22',  'apfdhas shttps://www.google.com/google.jpg asfdaa',  'https://www.google.com/google.jpg',  '',  '22')
+UPDATE  publications SET amount_hearts='2' WHERE id = '130'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '22',  'apfdhas shttps://www.google.com/google.jpg asfdaa',  'https://www.google.com/google.jpg',  '',  '22')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '22',  'apfdhas shttps://www.google.com/google.jpg asfdaa',  'https://www.google.com/google.jpg',  '',  '22')
+INSERT INTO  publications (id_user, id_owned, id_original) VALUES( '29',  '27',  '130')
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '22',  'apfdhas shttps://www.google.com/google.jpg asfdaa',  'https://www.google.com/google.jpg',  'h',  '22')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '27'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '22',  'apfdhas shttps://www.google.com/google.jpg asfdaa',  'https://www.google.com/google.jpg',  'https://www.google.com/google.jpg',  '22')
+INSERT INTO  hearts (id_user, id_publication, signature) VALUES( '27',  '130',  '0da81c2cec715e0ccd6d1f535e598ffc')
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '22',  'apfdhas shttps://www.google.com/google.jpg asfdaa',  'https://www.google.com/google.jpg',  'https://www.google.com/google.jpg',  '22')
+INSERT INTO  hearts (id_user, id_publication, signature) VALUES( '27',  '131',  'ca269413767dbf21c9e391910cb17418')
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '22',  'apfdhas shttps://www.google.com/google.jpg asfdaa',  './img/22.355096d388e41316fbc2428a9690fcc5.png',  './img/22.355096d388e41316fbc2428a9690fcc5.png',  '22')
+UPDATE  publications SET amount_hearts='1' WHERE id = '131'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '22',  '',  '',  '',  '22')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '22',  'apfdhas shttps://www.google.com/google.jpg asfdaa',  './img/publications/22.91d541200d4f19d0d8a060f08f4a523d.png',  './img/publications/22.91d541200d4f19d0d8a060f08f4a523d.png',  '22')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+INSERT INTO  users (name, email, password) VALUES( 'Nathaly Silva',  'nath@linda.com',  '$2y$10$jW1oQ8JhnMq9flM2PuAHgu/G9o8llxzz8AzKIJWNJaCGneldLRJbq')
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '22',  'afdaddfs',  './img/publications/22.8cffee334563398fb905523ea92b4ae2.png',  './img/publications/22.8cffee334563398fb905523ea92b4ae2.png',  '22')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '30',  '27',  'd93d8bd63edf706de1c41d8beb35d7a7')
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT amount_followers FROM users  WHERE id = '27'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+UPDATE  users SET amount_followers='2' WHERE id = '27'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '30',  '29',  'd07c6c6b7d85dff1fbd13b0a2dd818db')
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT amount_followers FROM users  WHERE id = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+UPDATE  users SET amount_followers='2' WHERE id = '29'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '30',  '28',  'fe7f8ef90843bd168249397c54a127eb')
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT amount_followers FROM users  WHERE id = '28'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+UPDATE  users SET amount_followers='2' WHERE id = '28'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+INSERT INTO  hearts (id_user, id_publication, signature) VALUES( '30',  '129',  '99dcf7e3c6bcc343297165e6c40dd6a4')
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+UPDATE  publications SET amount_hearts='1' WHERE id = '129'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+INSERT INTO  publications (id_user, id_owned, id_original) VALUES( '30',  '27',  '129')
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+UPDATE  users SET avatar='./img/avatars/30.8c1f9586949bda0e75e902f383bb4213.jpg' WHERE id = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '27'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+UPDATE  users SET avatar='./img/avatars/30.219f44bc0781544c034dc888d727fcf2.jpg' WHERE id = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+UPDATE  users SET avatar='./img/avatars/30.0989c8253b89fd67a1ab510872996307.jpg' WHERE id = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+UPDATE  users SET avatar='./img/avatars/30.c686677aa5dacdee390f29a9bb2d5f4f.jpg' WHERE id = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+UPDATE  users SET avatar='./img/avatars/30.8e6f5fa69809dfdc0e1c10cf0181978b.jpg' WHERE id = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+UPDATE  users SET avatar='./img/avatars/30.9ba645883ebb3f37a5b6277867622b07.jpg' WHERE id = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '30',  'Teste',  '',  '',  '30')
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '30',  'Ao Dogão aiii!!! 
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+Conf 2021',  './img/publications/30.ee4c59eb9a486179f82547392144b86f.jpg',  './img/publications/30.ee4c59eb9a486179f82547392144b86f.jpg',  '30')
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '30',  'Ao Dogão aiii!!! 
 
-SELECT id, name, email, avatar, password FROM users  WHERE email = 'roberto.atacadao@gmail.com'
+Conf 2021',  './img/publications/30.60039982adf155dedbc6f15a77c2e7f7.jpg',  './img/publications/30.60039982adf155dedbc6f15a77c2e7f7.jpg',  '30')
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '30',  'Ao Dogão aiii!!! 
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '22',  'e7f779019c76890d7dd61259fd8d06b4')
+Conf 2021',  './img/publications/30.c2973dc5d93e9830f0ccddfd0afaccee.jpg',  './img/publications/30.c2973dc5d93e9830f0ccddfd0afaccee.jpg',  '30')
 
-SELECT amount_followers FROM users  WHERE id = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-UPDATE  users SET amount_followers='1' WHERE id = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '30',  'Essa não é a Sonia.',  './img/publications/30.807ee3f6a4d747e2f55436ce59770cf0.jpg',  './img/publications/30.807ee3f6a4d747e2f55436ce59770cf0.jpg',  '30')
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'Guia me mais fundo do que já estive 123',  '',  '',  '23')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'q reqwer qw',  '',  '',  '23')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+DELETE FROM followers   WHERE id_follower = '30' and id_followed = '27' and signature = 'd93d8bd63edf706de1c41d8beb35d7a7'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'fd589fd',  '',  '',  '23')
+SELECT amount_followers FROM users  WHERE id = '27'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+UPDATE  users SET amount_followers='1' WHERE id = '27'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'minha fe zserá mais liver',  '',  '',  '23')
+INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '30',  '27',  'd93d8bd63edf706de1c41d8beb35d7a7')
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT amount_followers FROM users  WHERE id = '27'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'vamos testar agora se vai funcionar',  '',  '',  '23')
+UPDATE  users SET amount_followers='2' WHERE id = '27'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'vamos testar agora se vai funcionar',  '',  '',  '23')
+DELETE FROM followers   WHERE id_follower = '30' and id_followed = '27' and signature = 'd93d8bd63edf706de1c41d8beb35d7a7'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT amount_followers FROM users  WHERE id = '27'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'qreqwr qw',  '',  '',  '23')
+UPDATE  users SET amount_followers='1' WHERE id = '27'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'vadqreqw',  '',  '',  '23')
+INSERT INTO  publications (id_user, id_owned, id_original) VALUES( '30',  '29',  '131')
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'qwreqwr qw',  '',  '',  '23')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'qwerq erqw',  '',  '',  '23')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'nathaly',  '',  '',  '23')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'gabriela',  '',  '',  '23')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'Lelezinha você é fenomal',  '',  '',  '23')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'Lezinha porque vocÊ é incrível! ',  '',  '',  '23')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT id, name, email, avatar, password FROM users  WHERE email = 'douglas_cezar@gmail.com'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '22',  '23',  '1c0a3574661663da24b5cc00e129d6fc')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT amount_followers FROM users  WHERE id = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-UPDATE  users SET amount_followers='2' WHERE id = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '22',  'Deixa de boilagem roberto',  '',  '',  '22')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'Para com isso calango',  '',  '',  '23')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '22',  'qre qwrewq',  '',  '',  '22')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '22',  'qerqwr',  '',  '',  '22')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'Para com isso calango',  '',  '',  '23')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'É bolsonaro 2020
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-https://conteudo.imguol.com.br/c/noticias/3b/2018/10/25/jair-bolsonaro-2018-1540489353056_1920x1080.jpg',  'https://conteudo.imguol.com.br/c/noticias/3b/2018/10/25/jair-bolsonaro-2018-1540489353056_1920x1080.jpg',  'https://conteudo.imguol.com.br/c/noticias/3b/2018/10/25/jair-bolsonaro-2018-1540489353056_1920x1080.jpg',  '23')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '22'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '21',  '9f05f1dcd20f7bb04465773e4f517f8a')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT amount_followers FROM users  WHERE id = '21'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-UPDATE  users SET amount_followers='2' WHERE id = '21'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '22',  'e7f779019c76890d7dd61259fd8d06b4')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '22',  'e7f779019c76890d7dd61259fd8d06b4')
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+INSERT INTO  publications (id_user, id_owned, id_original) VALUES( '30',  '27',  '129')
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+INSERT INTO  publications (id_user, id_owned, id_original) VALUES( '30',  '27',  '129')
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '22',  'e7f779019c76890d7dd61259fd8d06b4')
+INSERT INTO  publications (id_user, id_owned, id_original) VALUES( '30',  '30',  '137')
 
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '22',  'e7f779019c76890d7dd61259fd8d06b4')
+INSERT INTO  publications (id_user, id_owned, id_original) VALUES( '30',  '27',  '130')
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+INSERT INTO  hearts (id_user, id_publication, signature) VALUES( '30',  '142',  'd78cc41c1fdf08fbcadd4caf74b4c9de')
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
+UPDATE  publications SET amount_hearts='1' WHERE id = '142'
 
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-DELETE FROM followers  
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '22',  'e7f779019c76890d7dd61259fd8d06b4')
-
-SELECT amount_followers FROM users  WHERE id = '22'
-
-UPDATE  users SET amount_followers='2' WHERE id = '22'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-DELETE FROM followers  
-
-DELETE FROM followers  SELECT amount_followers FROM users  WHERE id = '22'
-
-DELETE FROM followers  
-
-DELETE FROM followers  SELECT amount_followers FROM users  WHERE id = '22'
-
-DELETE FROM followers  
-
-DELETE FROM followers  SELECT amount_followers FROM users  WHERE id = '22'
-
-DELETE FROM followers  
-
-DELETE FROM followers  SELECT amount_followers FROM users  WHERE id = '22'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '18',  'a2807164b5d6b46cc78807611a0c0a34')
-
-SELECT amount_followers FROM users  WHERE id = '18'
-
-UPDATE  users SET amount_followers='2' WHERE id = '18'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '22',  'e7f779019c76890d7dd61259fd8d06b4')
-
-SELECT amount_followers FROM users  WHERE id = '22'
-
-UPDATE  users SET amount_followers='3' WHERE id = '22'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-DELETE FROM followers  
-
-DELETE FROM followers  SELECT amount_followers FROM users  WHERE id = '18'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '18',  'a2807164b5d6b46cc78807611a0c0a34')
-
-SELECT amount_followers FROM users  WHERE id = '18'
-
-UPDATE  users SET amount_followers='1' WHERE id = '18'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '22',  'e7f779019c76890d7dd61259fd8d06b4')
-
-SELECT amount_followers FROM users  WHERE id = '22'
-
-UPDATE  users SET amount_followers='1' WHERE id = '22'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '21',  '9f05f1dcd20f7bb04465773e4f517f8a')
-
-SELECT amount_followers FROM users  WHERE id = '21'
-
-UPDATE  users SET amount_followers='1' WHERE id = '21'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-DELETE FROM followers  
-
-DELETE FROM followers  SELECT amount_followers FROM users  WHERE id = '18'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '20',  'e25ce386a12398646dcd11ba645bdd8f')
-
-SELECT amount_followers FROM users  WHERE id = '20'
-
-UPDATE  users SET amount_followers='1' WHERE id = '20'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '21',  '9f05f1dcd20f7bb04465773e4f517f8a')
-
-SELECT amount_followers FROM users  WHERE id = '21'
-
-UPDATE  users SET amount_followers='2' WHERE id = '21'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '22',  'e7f779019c76890d7dd61259fd8d06b4')
-
-SELECT amount_followers FROM users  WHERE id = '22'
-
-UPDATE  users SET amount_followers='2' WHERE id = '22'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-DELETE FROM followers  
-
-DELETE FROM followers   WHERE id_follower = '23' and id_followed = '21' and signature = '9f05f1dcd20f7bb04465773e4f517f8a'SELECT amount_followers FROM users  WHERE id = '21'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '18',  'a2807164b5d6b46cc78807611a0c0a34')
-
-SELECT amount_followers FROM users  WHERE id = '18'
-
-UPDATE  users SET amount_followers='2' WHERE id = '18'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '20',  'e25ce386a12398646dcd11ba645bdd8f')
-
-SELECT amount_followers FROM users  WHERE id = '20'
-
-UPDATE  users SET amount_followers='2' WHERE id = '20'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '21',  '9f05f1dcd20f7bb04465773e4f517f8a')
-
-SELECT amount_followers FROM users  WHERE id = '21'
-
-UPDATE  users SET amount_followers='3' WHERE id = '21'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '22',  'e7f779019c76890d7dd61259fd8d06b4')
-
-SELECT amount_followers FROM users  WHERE id = '22'
-
-UPDATE  users SET amount_followers='3' WHERE id = '22'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-DELETE FROM followers   WHERE id_follower = '23' and id_followed = '21' and signature = '9f05f1dcd20f7bb04465773e4f517f8a'
-
-SELECT amount_followers FROM users  WHERE id = '21'
-
-UPDATE  users SET amount_followers='2' WHERE id = '21'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-DELETE FROM followers   WHERE id_follower = '23' and id_followed = '22' and signature = 'e7f779019c76890d7dd61259fd8d06b4'
-
-SELECT amount_followers FROM users  WHERE id = '22'
-
-UPDATE  users SET amount_followers='2' WHERE id = '22'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '21',  '9f05f1dcd20f7bb04465773e4f517f8a')
-
-SELECT amount_followers FROM users  WHERE id = '21'
-
-UPDATE  users SET amount_followers='3' WHERE id = '21'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-DELETE FROM followers   WHERE id_follower = '23' and id_followed = '21' and signature = '9f05f1dcd20f7bb04465773e4f517f8a'
-
-SELECT amount_followers FROM users  WHERE id = '21'
-
-UPDATE  users SET amount_followers='2' WHERE id = '21'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'ultima publicação',  '',  '',  '23')
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '22',  'e7f779019c76890d7dd61259fd8d06b4')
-
-SELECT amount_followers FROM users  WHERE id = '22'
-
-UPDATE  users SET amount_followers='3' WHERE id = '22'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'http://www.reddit.com/r/gifs/comments/453own/i_love_brazil/',  'http://www.reddit.com/r/gifs/comments/453own/i_love_brazil/',  'http://www.reddit.com/r/gifs/comments/453own/i_love_brazil/',  '23')
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'https://media3.giphy.com/media/PSKAppO2LH56w/giphy.gif?cid=ecf05e47mycrasijao58ookgzvk0b0t5s635r37n18oixppa&rid=giphy.gif',  'https://media3.giphy.com/media/PSKAppO2LH56w/giphy.gif?cid=ecf05e47mycrasijao58ookgzvk0b0t5s635r37n18oixppa&rid=giphy.gif',  'https://media3.giphy.com/media/PSKAppO2LH56w/giphy.gif?cid=ecf05e47mycrasijao58ookgzvk0b0t5s635r37n18oixppa&rid=giphy.gif',  '23')
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'https://media1.giphy.com/media/5fBH6zxeV63okWT0rXq/200w.webp?cid=ecf05e4723c04af8623697219dc8db82407f93b6d1af704c&rid=200w.webp',  'https://media1.giphy.com/media/5fBH6zxeV63okWT0rXq/200w.webp?cid=ecf05e4723c04af8623697219dc8db82407f93b6d1af704c&rid=200w.webp',  'https://media1.giphy.com/media/5fBH6zxeV63okWT0rXq/200w.webp?cid=ecf05e4723c04af8623697219dc8db82407f93b6d1af704c&rid=200w.webp',  '23')
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'https://media1.giphy.com/media/5fBH6zxeV63okWT0rXq/200w.webp?cid=ecf05e4723c04af8623697219dc8db82407f93b6d1af704c&rid=200w.webp',  'https://media1.giphy.com/media/5fBH6zxeV63okWT0rXq/200w.webp?cid=ecf05e4723c04af8623697219dc8db82407f93b6d1af704c&rid=200w.webp',  'https://media1.giphy.com/media/5fBH6zxeV63okWT0rXq/200w.webp?cid=ecf05e4723c04af8623697219dc8db82407f93b6d1af704c&rid=200w.webp',  '23')
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'https://media1.giphy.com/media/5fBH6zxeV63okWT0rXq/200w.webp?cid=ecf05e4723c04af8623697219dc8db82407f93b6d1af704c&rid=200w.webp',  'https://media1.giphy.com/media/5fBH6zxeV63okWT0rXq/200w.webp?cid=ecf05e4723c04af8623697219dc8db82407f93b6d1af704c&rid=200w.webp',  'https://media1.giphy.com/media/5fBH6zxeV63okWT0rXq/200w.webp?cid=ecf05e4723c04af8623697219dc8db82407f93b6d1af704c&rid=200w.webp',  '23')
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'https://media4.giphy.com/media/xTiN0Dar4ZUJaGYJPO/200w.webp?cid=ecf05e470b4b98c6c8a65b5cbdc20855d4ed2fdc49c78552&rid=200w.webp',  'https://media4.giphy.com/media/xTiN0Dar4ZUJaGYJPO/200w.webp?cid=ecf05e470b4b98c6c8a65b5cbdc20855d4ed2fdc49c78552&rid=200w.webp',  'https://media4.giphy.com/media/xTiN0Dar4ZUJaGYJPO/200w.webp?cid=ecf05e470b4b98c6c8a65b5cbdc20855d4ed2fdc49c78552&rid=200w.webp',  '23')
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'https://media4.giphy.com/media/xTiN0Dar4ZUJaGYJPO/200w.webp?cid=ecf05e470b4b98c6c8a65b5cbdc20855d4ed2fdc49c78552&rid=200w.webp',  'https://media4.giphy.com/media/xTiN0Dar4ZUJaGYJPO/200w.webp?cid=ecf05e470b4b98c6c8a65b5cbdc20855d4ed2fdc49c78552&rid=200w.webp',  'https://media4.giphy.com/media/xTiN0Dar4ZUJaGYJPO/200w.webp?cid=ecf05e470b4b98c6c8a65b5cbdc20855d4ed2fdc49c78552&rid=200w.webp',  '23')
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'https://media.giphy.com/media/MEf3bRnzvy4Ss/giphy.gif',  'https://media.giphy.com/media/MEf3bRnzvy4Ss/giphy.gif',  'https://media.giphy.com/media/MEf3bRnzvy4Ss/giphy.gif',  '23')
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'https://media.giphy.com/media/MEf3bRnzvy4Ss/giphy.gif',  'https://media.giphy.com/media/MEf3bRnzvy4Ss/giphy.gif',  'https://media.giphy.com/media/MEf3bRnzvy4Ss/giphy.gif',  '23')
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'https://media.giphy.com/media/MEf3bRnzvy4Ss/giphy.gif',  'https://media.giphy.com/media/MEf3bRnzvy4Ss/giphy.gif',  'https://media.giphy.com/media/MEf3bRnzvy4Ss/giphy.gif',  '23')
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'https://media.giphy.com/media/l4Ep4a6RnfDqkdhRe/giphy.gif',  'https://media.giphy.com/media/l4Ep4a6RnfDqkdhRe/giphy.gif',  'https://media.giphy.com/media/l4Ep4a6RnfDqkdhRe/giphy.gif',  '23')
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'https://media.giphy.com/media/l4Ep4a6RnfDqkdhRe/giphy.gif',  'https://media.giphy.com/media/l4Ep4a6RnfDqkdhRe/giphy.gif',  'https://media.giphy.com/media/l4Ep4a6RnfDqkdhRe/giphy.gif',  '23')
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'https://media.giphy.com/media/5UqWIbfRyfTjaRulMO/giphy.gif',  'https://media.giphy.com/media/5UqWIbfRyfTjaRulMO/giphy.gif',  'https://media.giphy.com/media/5UqWIbfRyfTjaRulMO/giphy.gif',  '23')
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'https://media.giphy.com/media/SCFB9A9pbzh04/giphy.gif',  'https://media.giphy.com/media/SCFB9A9pbzh04/giphy.gif',  'https://media.giphy.com/media/SCFB9A9pbzh04/giphy.gif',  '23')
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'https://media.giphy.com/media/TJbCjaUjOOF51WMJDN/giphy.gif',  'https://media.giphy.com/media/TJbCjaUjOOF51WMJDN/giphy.gif',  'https://media.giphy.com/media/TJbCjaUjOOF51WMJDN/giphy.gif',  '23')
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'Olha só galera https://media.giphy.com/media/130JX30PsVjfdmDZKMw/giphy.gif',  'https://media.giphy.com/media/130JX30PsVjfdmDZKMw/giphy.gif',  'https://media.giphy.com/media/130JX30PsVjfdmDZKMw/giphy.gif',  '23')
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'Olha só galera
-https://media.giphy.com/media/130JX30PsVjfdmDZKMw/giphy.gif
-',  'https://media.giphy.com/media/130JX30PsVjfdmDZKMw/giphy.gif',  'https://media.giphy.com/media/130JX30PsVjfdmDZKMw/giphy.gif',  '23')
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'Olha isso galera https://media.giphy.com/media/130JX30PsVjfdmDZKMw/giphy.gif',  'https://media.giphy.com/media/130JX30PsVjfdmDZKMw/giphy.gif',  'https://media.giphy.com/media/130JX30PsVjfdmDZKMw/giphy.gif',  '23')
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'Olha isso galera 
-https://media.giphy.com/media/130JX30PsVjfdmDZKMw/giphy.gif',  'https://media.giphy.com/media/130JX30PsVjfdmDZKMw/giphy.gif',  'https://media.giphy.com/media/130JX30PsVjfdmDZKMw/giphy.gif',  '23')
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'Eitaa Olha isso galera 
-https://media.giphy.com/media/130JX30PsVjfdmDZKMw/giphy.gif',  'https://media.giphy.com/media/130JX30PsVjfdmDZKMw/giphy.gif',  'https://media.giphy.com/media/130JX30PsVjfdmDZKMw/giphy.gif',  '23')
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'Eitaaa https://gph.is/g/4LRoJLa',  'https://gph.is/g/4LRoJLa',  'https://gph.is/g/4LRoJLa',  '23')
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'Que ota? 
-https://media.giphy.com/media/Vdn5ZUuAAEvivjfgKY/giphy.gif',  'https://media.giphy.com/media/Vdn5ZUuAAEvivjfgKY/giphy.gif',  'https://media.giphy.com/media/Vdn5ZUuAAEvivjfgKY/giphy.gif',  '23')
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'https://media.giphy.com/media/3ohjV3CeJu533ssxnG/giphy.gif',  'https://media.giphy.com/media/3ohjV3CeJu533ssxnG/giphy.gif',  'https://media.giphy.com/media/3ohjV3CeJu533ssxnG/giphy.gif',  '23')
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'Eu quero tchu, eu quero tcha, eu quero tchu tcha thu tcha. 
-Golaço do messi... 
-Barcelona 6x1 Real',  '',  '',  '23')
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '17',  'ec429162d954799d045ac7a9a141b038')
-
-SELECT amount_followers FROM users  WHERE id = '17'
-
-UPDATE  users SET amount_followers='1' WHERE id = '17'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '18',  'a2807164b5d6b46cc78807611a0c0a34')
-
-SELECT amount_followers FROM users  WHERE id = '18'
-
-UPDATE  users SET amount_followers='3' WHERE id = '18'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '19',  '71e8d13ef60d031b299eb6e625a73aa5')
-
-SELECT amount_followers FROM users  WHERE id = '19'
-
-UPDATE  users SET amount_followers='1' WHERE id = '19'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '20',  'e25ce386a12398646dcd11ba645bdd8f')
-
-SELECT amount_followers FROM users  WHERE id = '20'
-
-UPDATE  users SET amount_followers='3' WHERE id = '20'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '21',  '9f05f1dcd20f7bb04465773e4f517f8a')
-
-SELECT amount_followers FROM users  WHERE id = '21'
-
-UPDATE  users SET amount_followers='3' WHERE id = '21'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '24',  'c8aaa6446c3b23c2fd60287f2d9ce0ca')
-
-SELECT amount_followers FROM users  WHERE id = '24'
-
-UPDATE  users SET amount_followers='1' WHERE id = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-DELETE FROM followers   WHERE id_follower = '23' and id_followed = '22' and signature = 'e7f779019c76890d7dd61259fd8d06b4'
-
-SELECT amount_followers FROM users  WHERE id = '22'
-
-UPDATE  users SET amount_followers='2' WHERE id = '22'
-
-DELETE FROM followers   WHERE id_follower = '23' and id_followed = '17' and signature = 'ec429162d954799d045ac7a9a141b038'
-
-SELECT amount_followers FROM users  WHERE id = '17'
-
-UPDATE  users SET amount_followers='0' WHERE id = '17'
-
-DELETE FROM followers   WHERE id_follower = '23' and id_followed = '18' and signature = 'a2807164b5d6b46cc78807611a0c0a34'
-
-SELECT amount_followers FROM users  WHERE id = '18'
-
-UPDATE  users SET amount_followers='2' WHERE id = '18'
-
-DELETE FROM followers   WHERE id_follower = '23' and id_followed = '19' and signature = '71e8d13ef60d031b299eb6e625a73aa5'
-
-SELECT amount_followers FROM users  WHERE id = '19'
-
-UPDATE  users SET amount_followers='0' WHERE id = '19'
-
-DELETE FROM followers   WHERE id_follower = '23' and id_followed = '20' and signature = 'e25ce386a12398646dcd11ba645bdd8f'
-
-SELECT amount_followers FROM users  WHERE id = '20'
-
-UPDATE  users SET amount_followers='2' WHERE id = '20'
-
-DELETE FROM followers   WHERE id_follower = '23' and id_followed = '21' and signature = '9f05f1dcd20f7bb04465773e4f517f8a'
-
-SELECT amount_followers FROM users  WHERE id = '21'
-
-UPDATE  users SET amount_followers='2' WHERE id = '21'
-
-DELETE FROM followers   WHERE id_follower = '23' and id_followed = '24' and signature = 'c8aaa6446c3b23c2fd60287f2d9ce0ca'
-
-SELECT amount_followers FROM users  WHERE id = '24'
-
-UPDATE  users SET amount_followers='0' WHERE id = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '18',  'a2807164b5d6b46cc78807611a0c0a34')
-
-SELECT amount_followers FROM users  WHERE id = '18'
-
-UPDATE  users SET amount_followers='3' WHERE id = '18'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '19',  '71e8d13ef60d031b299eb6e625a73aa5')
-
-SELECT amount_followers FROM users  WHERE id = '19'
-
-UPDATE  users SET amount_followers='1' WHERE id = '19'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '20',  'e25ce386a12398646dcd11ba645bdd8f')
-
-SELECT amount_followers FROM users  WHERE id = '20'
-
-UPDATE  users SET amount_followers='3' WHERE id = '20'
-
-DELETE FROM followers   WHERE id_follower = '23' and id_followed = '20' and signature = 'e25ce386a12398646dcd11ba645bdd8f'
-
-SELECT amount_followers FROM users  WHERE id = '20'
-
-UPDATE  users SET amount_followers='2' WHERE id = '20'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '20',  'e25ce386a12398646dcd11ba645bdd8f')
-
-SELECT amount_followers FROM users  WHERE id = '20'
-
-UPDATE  users SET amount_followers='3' WHERE id = '20'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '17',  'ec429162d954799d045ac7a9a141b038')
-
-SELECT amount_followers FROM users  WHERE id = '17'
-
-UPDATE  users SET amount_followers='1' WHERE id = '17'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '24',  'c8aaa6446c3b23c2fd60287f2d9ce0ca')
-
-SELECT amount_followers FROM users  WHERE id = '24'
-
-UPDATE  users SET amount_followers='1' WHERE id = '24'
-
-DELETE FROM followers   WHERE id_follower = '23' and id_followed = '24' and signature = 'c8aaa6446c3b23c2fd60287f2d9ce0ca'
-
-SELECT amount_followers FROM users  WHERE id = '24'
-
-UPDATE  users SET amount_followers='0' WHERE id = '24'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '24',  'c8aaa6446c3b23c2fd60287f2d9ce0ca')
-
-SELECT amount_followers FROM users  WHERE id = '24'
-
-UPDATE  users SET amount_followers='1' WHERE id = '24'
-
-DELETE FROM followers   WHERE id_follower = '23' and id_followed = '24' and signature = 'c8aaa6446c3b23c2fd60287f2d9ce0ca'
-
-SELECT amount_followers FROM users  WHERE id = '24'
-
-UPDATE  users SET amount_followers='0' WHERE id = '24'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '24',  'c8aaa6446c3b23c2fd60287f2d9ce0ca')
-
-SELECT amount_followers FROM users  WHERE id = '24'
-
-UPDATE  users SET amount_followers='1' WHERE id = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-DELETE FROM followers   WHERE id_follower = '23' and id_followed = '24' and signature = 'c8aaa6446c3b23c2fd60287f2d9ce0ca'
-
-SELECT amount_followers FROM users  WHERE id = '24'
-
-UPDATE  users SET amount_followers='0' WHERE id = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '24',  'c8aaa6446c3b23c2fd60287f2d9ce0ca')
-
-SELECT amount_followers FROM users  WHERE id = '24'
-
-UPDATE  users SET amount_followers='1' WHERE id = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-DELETE FROM followers   WHERE id_follower = '23' and id_followed = '24' and signature = 'c8aaa6446c3b23c2fd60287f2d9ce0ca'
-
-SELECT amount_followers FROM users  WHERE id = '24'
-
-UPDATE  users SET amount_followers='0' WHERE id = '24'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-DELETE FROM followers   WHERE id_follower = '23' and id_followed = '18' and signature = 'a2807164b5d6b46cc78807611a0c0a34'
-
-SELECT amount_followers FROM users  WHERE id = '18'
-
-UPDATE  users SET amount_followers='2' WHERE id = '18'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '18',  'a2807164b5d6b46cc78807611a0c0a34')
-
-SELECT amount_followers FROM users  WHERE id = '18'
-
-UPDATE  users SET amount_followers='3' WHERE id = '18'
-
-DELETE FROM followers   WHERE id_follower = '23' and id_followed = '18' and signature = 'a2807164b5d6b46cc78807611a0c0a34'
-
-SELECT amount_followers FROM users  WHERE id = '18'
-
-UPDATE  users SET amount_followers='2' WHERE id = '18'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '18',  'a2807164b5d6b46cc78807611a0c0a34')
-
-SELECT amount_followers FROM users  WHERE id = '18'
-
-UPDATE  users SET amount_followers='3' WHERE id = '18'
-
-DELETE FROM followers   WHERE id_follower = '23' and id_followed = '18' and signature = 'a2807164b5d6b46cc78807611a0c0a34'
-
-SELECT amount_followers FROM users  WHERE id = '18'
-
-UPDATE  users SET amount_followers='2' WHERE id = '18'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '22',  'e7f779019c76890d7dd61259fd8d06b4')
-
-SELECT amount_followers FROM users  WHERE id = '22'
-
-UPDATE  users SET amount_followers='3' WHERE id = '22'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'Minha mãe está aqui do lado.',  '',  '',  '23')
-
-INSERT INTO  publications (id_user, description, legend, src_image, id_owned) VALUES( '23',  'https://media.giphy.com/media/D3FSMbHXbDLgc/giphy.gif',  'https://media.giphy.com/media/D3FSMbHXbDLgc/giphy.gif',  'https://media.giphy.com/media/D3FSMbHXbDLgc/giphy.gif',  '23')
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-DELETE FROM followers   WHERE id_follower = '23' and id_followed = '20' and signature = 'e25ce386a12398646dcd11ba645bdd8f'
-
-SELECT amount_followers FROM users  WHERE id = '20'
-
-UPDATE  users SET amount_followers='2' WHERE id = '20'
-
-INSERT INTO  followers (id_follower, id_followed, signature) VALUES( '23',  '20',  'e25ce386a12398646dcd11ba645bdd8f')
-
-SELECT amount_followers FROM users  WHERE id = '20'
-
-UPDATE  users SET amount_followers='3' WHERE id = '20'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '23'
-
-SELECT id, name, email, avatar, password FROM users  WHERE email = 'asdfas@asfdas'
-
-INSERT INTO  users (name, email, password) VALUES( 'Alan Belisario',  'alanbelisariopay@gmail.com',  '$2y$10$mqQ/zYfd.qJnbh/u0iJ34.8V66J9QQPgAbpeIe0YyrUm/Yl/bO0Z.')
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '25'
-
-INSERT INTO  users (name, email, password) VALUES( 'Alan Belisário',  'alanbelisariopay@gmail.com',  '$2y$10$4FiWNA48p2fZoN0liV.m0.7JRx/XPWj9zZ.9U5lYEDKWDut3dyhEK')
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '26'
-
-SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '26'
+SELECT u.id, u.name, u.avatar, amount_followers FROM users as u   INNER JOIN followers as f ON u.id = f.id_followed  WHERE f.id_follower = '30'
